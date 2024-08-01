@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIP TIMELINE - Your Travel Buddy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>TRIP TIMELINE - Your Travel Buddy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section id="featured-destinations">
+            <h2>Featured Destinations</h2>
+            <div class="carousel">
+                <button class="carousel-button left">&lt;</button>
+                <div class="carousel-images">
+                    <div class="carousel-image">
+                        <img src="images/smoky1.jpg" alt="Smoky Mountains">
+                        <h3>Smoky Mountains</h3>
+                        <p>Discover the mist-covered peaks and diverse wildlife of the Great Smoky Mountains.</p>
+                        <a href="destination1.html">Learn more</a>
+                    </div>
+                    <div class="carousel-image">
+                        <img src="images/Rocky1.jpg" alt="Rocky Mountains">
+                        <h3>Rocky Mountains</h3>
+                        <p>Explore the rugged peaks and alpine lakes of the majestic Rocky Mountains.</p>
+                        <a href="destination2.html">Learn more</a>
+                    </div>
+                    <div class="carousel-image">
+                        <img src="images/nyc.jpg" alt="New York">
+                        <h3>New York</h3>
+                        <p>Experience the vibrant city life and iconic landmarks of New York.</p>
+                        <a href="destination3.html">Learn more</a>
+                    </div>
+                    <div class="carousel-image">
+                        <img src="images/miami.jpg" alt="Miami">
+                        <h3>Miami</h3>
+                        <p>Enjoy the sunny beaches and cultural richness of Miami.</p>
+                        <a href="destination4.html">Learn more</a>
+                    </div>
+                </div>
+                <button class="carousel-button right">&gt;</button>
+            </div>
+        </section>
+        <section id="trip-planner">
+            <h2>Get your weather checked </h2>
+            <form id="trip-planner-form">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+                <button type="submit">Get Weather</button>
+            </form>
+            <p id="weather-result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TRIP TIMELINE</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
